@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+body {
+  background: #ECEEEF;
+  text-align: center;
+  margin: 0px auto;
+  padding: 0 40px;
+  font: 18px normal 'Varela Round', Helvetica, serif;
+  color: #777B7E;
+}
+
+.bar {
+  position: absolute;
+  height: 100%;
+  background-color: green;
+  top: 0;
+  left: 0;
+  width: 0;
+  -webkit-animation-name: pan;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3.5s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: pan;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes pan {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes pan {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+.background-color_blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+.bar_blue {
+  position: absolute;
+  height: 100%;
+  background-color: blue;
+  top: 0;
+  left: 0;
+  width: 0;
+  -webkit-animation-name: pan;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3.5s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: pan;
+  animation-duration: 3.5s;
+}
+.background-color_green {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+.bar_green {
+  position: absolute;
+  height: 100%;
+  background-color: green;
+  top: 0;
+  left: 0;
+  width: 0;
+  -webkit-animation-name: pan;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3.5s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: pan;
+  animation-duration: 3.5s;
+}
+.background-color_red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.bar_red {
+  position: absolute;
+  height: 100%;
+  background-color: red;
+  top: 0;
+  left: 0;
+  width: 0;
+  -webkit-animation-name: pan;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3.5s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: pan;
+  animation-duration: 3.5s;
+}
+.background-color_yellow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.bar_yellow {
+  position: absolute;
+  height: 100%;
+  background-color: yellow;
+  top: 0;
+  left: 0;
+  width: 0;
+  -webkit-animation-name: pan;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3.5s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: pan;
+  animation-duration: 3.5s;
+}

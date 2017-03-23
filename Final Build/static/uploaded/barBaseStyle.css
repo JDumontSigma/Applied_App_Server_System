@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+
+body {
+    background: #eceded;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0 40px;
+    font: 18px normal 'Varela Round', Helvetica, serif;
+    color: #777B7E;
+}
+
+
+.bar{
+  position: absolute;
+  height: 100%;
+  background-color: green;
+  top: 0;
+  left: 0;
+  width: 0;
+  -webkit-animation-name: pan; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3.5s; /* Safari 4.0 - 8.0 */
+  animation-name: pan;
+  animation-duration: 3.5s;
+}
+
+
+
+@-webkit-keyframes pan{
+  0%{
+    width: 0px;
+
+  }
+  100%{
+    width: 100%;
+
+  }
+}
+@keyframes pan{
+  0%{
+    width: 0px;
+
+  }
+  100%{
+    width: 100%;
+
+  }
+}

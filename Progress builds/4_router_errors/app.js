@@ -1,0 +1,21 @@
+//require http to generate web server
+var http = require('http');
+
+//pulls in modules from router js for use in this file
+// ./router.js defines that the file in within the same folder level as this file
+var router = require('./router.js');
+
+
+//run the server function
+http.createServer(function(request,response){
+  //Call the function from router.js to display text on the home path
+  router.textDisplay(request,response);
+  //Stops the server waiting for more information
+  response.end();
+  //Determines what port the server will be hosted onv
+}).listen(3000);
+
+
+//prints out to the console that the server is running on localhost:3000
+//helps in checking that the code is executed
+console.log('Sever is currently running on localhost:3000');

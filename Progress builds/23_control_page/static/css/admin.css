@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+body {
+  background: #e6e7e8;
+  text-align: center;
+  margin: 0px auto;
+  padding: 0 40px;
+  font: 18px normal 'Varela Round', Helvetica, serif;
+  color: #777B7E;
+}
+h1{
+  font-size: 4rem;
+}
+.adPanel {
+  background-color: white;
+  padding: 20px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.adPanel h2 {
+  margin-top: 20px;
+}
+.adPanel h2:first-of-type{
+  margin-top: 0;
+}
+
+.adPanel ul {
+  margin: 0;
+  padding: 0;
+}
+
+.adPanel ul li {
+  list-style: none;
+  background-color: #e6e7e8;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.adPanel ul li p {
+  margin: 0;
+}

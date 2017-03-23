@@ -1,0 +1,31 @@
+{
+  "server": {
+    "0": {
+      "port": 3000,
+      "currentPosition": 0,
+      "file": "static/advert/1.html"
+    },
+    "1": {
+      "port": 3001,
+      "currentPosition": 1,
+      "file": "static/advert/2.html"
+    },
+    "2": {
+      "port": 3002,
+      "currentPosition": 2,
+      "file": "static/advert/3.html"
+    }
+  },
+  "server_quantity": 2,
+  "start_date": "19:2:2017",
+  "start_time": "13:3:17:917",
+  "last_updated": 1487509415417,
+  "update_time": 1487509422417,
+  "files": {
+    "0": "static/advert/1.html",
+    "1": "static/advert/2.html",
+    "2": "static/advert/3.html"
+  },
+  "file_quantity": 3,
+  "clientPull": 1487509408896
+}

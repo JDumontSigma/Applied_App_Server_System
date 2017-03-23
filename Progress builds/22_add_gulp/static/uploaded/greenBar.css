@@ -1,0 +1,21 @@
+.background-color_green{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background-color: green;
+}
+
+.bar_green{
+  position: absolute;
+  height: 100%;
+  background-color: green;
+  top: 0;
+  left: 0;
+  width: 0;
+  -webkit-animation-name: pan; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3.5s; /* Safari 4.0 - 8.0 */
+  animation-name: pan;
+  animation-duration: 3.5s;
+}

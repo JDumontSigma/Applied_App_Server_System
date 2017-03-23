@@ -1,0 +1,4 @@
+Simple text is easy to do
+is it possible to run a function externally
+look into routing
+this will help when it comes to redirecting url

@@ -1,0 +1,36 @@
+///////////////////////////////////////////////////////
+Development Notes
+///////////////////////////////////////////////////////
+Trying to read in a JSON file breaks the servers
+  - this means the file is only read once then the server crashes
+  - No idea why or how to fix this issue
+  - states the files are still being written to even though this is not the case
+
+Solved this issue by changing from JSON file to .txt file
+  - Means that in JS there is an extra step required
+  - Does not break the server
+
+
+Getting the file from multiple servers
+  - As i am building multiple servers off a single local host just using multiple port
+  - The file link needs to have the port altered dynamically
+    - if the port does not match the host an error appear which states the origin of request is different
+    - Solved by passing a variable into the function
+
+Why use a single file?
+  - allows the servers to be in time with each other always
+  - how do i get the servers in sync without sending too many request
+    - to make sure the file updates when they should, it means that the server stats will require a last updated field
+  - Once the last updated field is read, can it work out how often to fire a function?
+    - if this is true then i will require to spam a set of request regularly until it works out this issue
+    - from then the server should run off client side code
+  - Store each potential state into variables?
+    - what if the files change?
+      - check every 10 seconds for an update?
+      - what happens when there is potentially 100 servers asking?
+
+
+Impossible to make many things run at exactly the same time down to the millisecond
+  - start off from a single point of refernce(the server)
+    - from this begin updating off a consist variable throughout each browser(the time from the server)
+    - Run the updates across all the browsers

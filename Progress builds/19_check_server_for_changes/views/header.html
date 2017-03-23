@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Server{{number}}</title>
+  <link rel="stylesheet" href="/static/css/main.css" type="text/css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="/static/js/scripts.js" type="text/javascript"></script>
+<script>
+  //calls the get data function when the document loads
+  //this will then allow variables to be set with each of the set animations
+  $(document).ready(function(){
+      setUp({{number}});
+      var currentPort = 3000 + {{number}};
+      setTimeout(function(){
+        updateContent(currentPort)
+      },10000);
+  });
+
+</script>
+
+<body id="body">

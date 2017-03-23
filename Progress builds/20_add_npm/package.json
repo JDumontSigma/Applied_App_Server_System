@@ -1,0 +1,23 @@
+{
+  "name": "server_advert_app",
+  "version": "0.0.1",
+  "description": "An application used for hosting multiple servers off one script all updating off set content",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Uni", "Node", "Development", "Proof of Concept"
+  ],
+  "author": "Jason Dumont",
+  "license": "ISC",
+  "devDependencies": {
+    "cron": "^1.2.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "json-file": "^0.1.0",
+    "jsonfile": "^2.4.0",
+    "nodedir": "^1.0.0",
+    "opn": "^4.0.2"
+  }
+}

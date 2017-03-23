@@ -1,0 +1,5 @@
+Simple server
+  - Easy to set up
+  - simple function
+
+To add basic text run content before the response is finish
